@@ -45,7 +45,8 @@ let nouvellePhrase = "";
         && phrase[i]!=="e"
         && phrase[i]!=="u" 
         && phrase[i]!=="i" 
-        && phrase[i]!=="o") {
+        && phrase[i]!=="o"
+       && phrase[i]!=="y") {
       nouvellePhrase += phrase[i];
     }
   };
