@@ -40,17 +40,13 @@ console.log(nom)
 let phrase = "Alegria Academy Rocks";
 let nouvellePhrase = "";
 
-let voyelles = {
-    'a': true,
-    'e': true,
-    'i': true,
-    'o': true,
-    'u': true
-  };
   for (let i = 0; i < phrase.length; i++) {
-    let letter = phrase[i].toLowerCase();
-    if (!voyelles[letter]) {
+    if (phrase[i]!=="a" 
+        && phrase[i]!=="e"
+        && phrase[i]!=="u" 
+        && phrase[i]!=="i" 
+        && phrase[i]!=="o") {
       nouvellePhrase += phrase[i];
     }
   };
-  console.log(nouvellePhrase);
+console.log(nouvellePhrase);
